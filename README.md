@@ -1,16 +1,3 @@
-# my_database_app
+# Flutter Form
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It is a simple form developed in flutter. It has 4 fields which are Name, Age , LMP date and phone number. LMP date field has a gesture detector widget which opens a calendar widget for date selection. All the fields have validator to ensure data correctness. Phone number use regex for data validation. On submitting the form POST request is sent to the php server and data is inserted into MYsql database. Admin can view/update/delete data through a website created in HTML,CSS and PHP.
